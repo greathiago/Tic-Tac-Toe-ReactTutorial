@@ -129,7 +129,7 @@ function Square(props)
     }
     if(count >= lines.length-1)
     {
-      return "Anyone";
+      return "Nobody";
     }
     return null;  
   }
