@@ -30,10 +30,8 @@ ol, ul {
 }
 
 .status {
-  top: 0px;
-  left: 0px;
-  bottom: 0px;
-  right: 0px;
+  margin-bottom: 10px;
+  text-align: center;
 }
 
 .square {
@@ -72,8 +70,10 @@ ol, ul {
 }
 .game-board {
   margin-left: 20px;
-  display: inline;
-  position: relative;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  right: 0px;
 }
 
 .btn-reset{
