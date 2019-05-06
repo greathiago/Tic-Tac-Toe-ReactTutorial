@@ -58,6 +58,7 @@ ol, ul {
 .game {
   flex-direction: row;
   size: auto;
+  text-align: center;
 }
 
 .game-info {
