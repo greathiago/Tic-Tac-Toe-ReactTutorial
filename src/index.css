@@ -23,10 +23,10 @@ ol, ul {
   padding-left: 30px;
 }
 
-.board-row:after {
-  clear: both;
-  content: "";
-  display: table;
+.board-grid{
+  display:grid;
+  grid-template-columns: 34px 34px 34px;
+  justify-content: center;
 }
 
 .status {
@@ -46,9 +46,6 @@ ol, ul {
   width: 34px;
 }
 
-.square:focus {
-  outline: none;
-}
 
 .kbd-navigation .square:focus {
   background: #ddd;
@@ -56,18 +53,11 @@ ol, ul {
 
 .game {
   flex-direction: row;
-  size: auto;
   text-align: center;
 }
 
 .game-info {
   margin-top: 50px;
-}
-.game-board {
-  top: 0px;
-  left: 0px;
-  bottom: 0px;
-  right: 0px;
 }
 
 .btn-reset{
