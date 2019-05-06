@@ -31,7 +31,6 @@ ol, ul {
 
 .status {
   margin-bottom: 10px;
-  text-align: center;
 }
 
 .square {
@@ -62,7 +61,6 @@ ol, ul {
 }
 
 .game-info {
-
   margin-top: 50px;
 }
 .game-board {
